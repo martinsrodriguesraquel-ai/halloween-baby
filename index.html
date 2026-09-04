@@ -3,80 +3,80 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#2b1838">
+<meta name="theme-color" content="#2a1733">
 <title>Raspadinha • Revelação do Bebê</title>
 <style>
-*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#211329}body{font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;background:radial-gradient(circle at 50% 0,#754381 0,#3c2148 36%,#211329 80%);overflow-x:hidden}.page{width:min(620px,100%);margin:auto;padding:6px 6px 26px}.posterWrap{position:relative;width:100%;aspect-ratio:2/3;border-radius:26px;overflow:hidden;box-shadow:0 26px 80px #0009;border:2px solid #583166;background:#392044;opacity:0;transform:translateY(8px);transition:opacity .5s,transform .5s}.posterWrap.ready{opacity:1;transform:none;animation:breathe 7s ease-in-out infinite alternate}.poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;user-select:none;-webkit-user-drag:none}.scratchGrid{position:absolute;left:21.7%;top:48.3%;width:56.9%;height:34.8%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr);gap:3.1%;z-index:8;touch-action:none}.cell{position:relative;padding:0;border:0;border-radius:12%;overflow:hidden;background:#f1d9e7;cursor:crosshair;box-shadow:0 4px 8px #180c1d66}.cell img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.04);transition:transform .45s}.cell.open img{transform:scale(1)}.scratch{position:absolute;inset:0;width:100%;height:100%;z-index:5;touch-action:none;transition:opacity .28s}.cell.open{outline:3px solid #f7b7d8;outline-offset:-3px}.cell.win{outline:5px solid #ffd46f;outline-offset:-5px;animation:winning .65s ease-in-out infinite alternate;filter:drop-shadow(0 0 11px #ffd46f)}.loading{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,#70407e,#25142f 72%);transition:opacity .4s}.loading.hide{opacity:0;pointer-events:none}.loaderBox{text-align:center;color:#fff4df;font-weight:900}.orb{width:62px;height:62px;margin:0 auto 14px;border-radius:50%;border:5px solid #ffffff35;border-top-color:#ffd46f;animation:spin 1s linear infinite}.reveal{position:fixed;inset:0;z-index:100;display:none;place-items:center;padding:18px;background:#211329ed;backdrop-filter:blur(12px)}.reveal.show{display:grid}.revealCard{width:min(520px,94vw);text-align:center;padding:25px 18px 22px;border-radius:30px;border:4px solid #efafd0;background:radial-gradient(circle at 50% 5%,#fff8e8,#f7dce9 70%);box-shadow:0 28px 90px #0009;color:#522b5c;animation:pop .65s cubic-bezier(.16,.9,.24,1.18)}.tag{display:inline-block;padding:8px 17px;border-radius:14px;background:#8e5aaa;color:#fff7ec;font-weight:900;letter-spacing:.06em}.revealCard h1{margin:10px 0 8px;font-family:Georgia,serif;font-size:clamp(48px,11vw,78px);line-height:.95;color:#dc72a2;text-shadow:0 3px #fff}.revealGirl{width:min(240px,65vw);aspect-ratio:1;object-fit:cover;border-radius:28px;border:5px solid #efafd0;box-shadow:0 12px 30px #b45b8655;animation:girlFloat 2.6s ease-in-out infinite}.msg{margin-top:10px;font-size:clamp(20px,4vw,27px);font-weight:900}.sub{max-width:420px;margin:7px auto 0;color:#775c80;font-weight:700;line-height:1.4}.close{margin-top:15px;border:0;border-radius:14px;padding:11px 18px;background:#8e5aaa;color:white;font-weight:900;cursor:pointer}.conf{position:fixed;top:-18px;width:9px;height:15px;border-radius:4px;z-index:120;pointer-events:none;animation:fall var(--d) linear forwards}.heart{position:fixed;z-index:121;pointer-events:none;font-size:18px;animation:heartFall var(--d) linear forwards}@keyframes breathe{to{transform:translateY(-3px);box-shadow:0 32px 90px #0009}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes winning{to{transform:scale(1.035)}}@keyframes pop{from{opacity:0;transform:scale(.72) translateY(15px)}}@keyframes girlFloat{50%{transform:translateY(-7px) rotate(-1deg)}}@keyframes fall{to{transform:translate(var(--x),105vh) rotate(680deg);opacity:.1}}@keyframes heartFall{from{top:-30px}to{top:105vh;transform:translateX(var(--x)) rotate(220deg);opacity:.15}}@media(max-width:520px){.page{padding:2px 2px 18px}.posterWrap{border-radius:17px;border-width:1px}.scratchGrid{gap:2.8%}.cell{border-radius:10%}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+:root{--bg:#25152d;--panel:#43244f;--panel2:#2d1836;--cream:#fff0de;--pink:#ef9fc6;--gold:#ffd36e;--lav:#9d6db2;--text:#fff6ec}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg)}body{font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;color:#4d3158;background:radial-gradient(circle at 50% -10%,#6e3b7f 0,#3a2146 34%,#211329 80%);overflow-x:hidden}.page{width:min(760px,100%);margin:auto;padding:10px 8px 30px}.shell{overflow:hidden;border-radius:30px;border:2px solid #6e477a;background:linear-gradient(180deg,#f8e5d3 0,#edd4c5 48%,#3a2046 48.2%,#26152f 100%);box-shadow:0 28px 90px #0009}.hero{position:relative;overflow:hidden;background:#3a2046;aspect-ratio:600/505}.hero img{position:absolute;left:0;top:0;width:100%;height:auto;display:block;transform-origin:center 38%;animation:heroFloat 7s ease-in-out infinite alternate}.hero::after{content:"";position:absolute;inset:auto 0 0;height:22%;background:linear-gradient(transparent,#3a2046);pointer-events:none}.board{position:relative;margin:-12px 14px 20px;padding:20px 16px 22px;border-radius:28px;border:3px solid #785287;background:radial-gradient(circle at 50% 0,#a06bb222,transparent 34%),linear-gradient(180deg,var(--panel),var(--panel2));box-shadow:0 16px 40px #0005,inset 0 0 0 2px #ffffff0a;z-index:4}.board h1{margin:0;text-align:center;color:var(--text);font-size:clamp(19px,3.2vw,26px);line-height:1.25}.board p{margin:7px auto 16px;text-align:center;color:#decbe4;font-size:clamp(12px,2vw,15px);font-weight:700}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;touch-action:none}.cell{position:relative;aspect-ratio:1;padding:0;border:3px solid #815b8f;border-radius:18px;overflow:hidden;background:#f1dce7;box-shadow:0 7px 0 #1c0f22;cursor:crosshair}.cell img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease,filter .4s ease}.cell:not(.open) img{transform:scale(1.045)}.cell.open img{transform:scale(1)}.scratch{position:absolute;inset:0;width:100%;height:100%;z-index:5;touch-action:none;transition:opacity .28s ease}.cell.open{outline:3px solid #f3b7d4;outline-offset:-3px}.cell.win{outline:5px solid var(--gold);outline-offset:-5px;animation:winner .7s ease-in-out infinite alternate;filter:drop-shadow(0 0 12px #ffd36e88)}.status{min-height:24px;margin-top:15px;text-align:center;color:#ffe5bf;font-weight:900}.hint{margin-top:4px;text-align:center;color:#cbb4d2;font-size:12px;font-weight:700}.reveal{position:fixed;inset:0;z-index:100;display:none;place-items:center;padding:18px;background:#211329ed;backdrop-filter:blur(12px)}.reveal.show{display:grid}.revealCard{width:min(540px,94vw);text-align:center;padding:24px 18px 25px;border-radius:30px;border:4px solid #efafd0;background:radial-gradient(circle at 50% 5%,#fff8e9,#f8dce9 72%);box-shadow:0 30px 100px #0009;animation:pop .65s cubic-bezier(.16,.9,.24,1.18)}.tag{display:inline-block;padding:8px 17px;border-radius:14px;background:#8f5eaa;color:#fff8ee;font-weight:900;letter-spacing:.06em}.revealCard h2{margin:11px 0 9px;font-family:Georgia,serif;font-size:clamp(48px,10vw,82px);line-height:.94;color:#df72a7;text-shadow:0 3px #fff}.revealGirl{width:min(245px,64vw);aspect-ratio:1;object-fit:cover;border-radius:28px;border:5px solid #efafd0;box-shadow:0 14px 38px #b85c8755;animation:girlFloat 2.8s ease-in-out infinite}.msg{margin-top:11px;color:#4e3158;font-size:clamp(19px,4vw,28px);font-weight:900}.sub{max-width:430px;margin:7px auto 0;color:#765c7d;font-weight:700;line-height:1.42}.close{margin-top:16px;border:0;border-radius:14px;padding:11px 18px;background:#8f5eaa;color:#fff;font-weight:900;cursor:pointer;box-shadow:0 4px 0 #6e4381}.loading{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,#70407e,#25142f 72%);transition:opacity .4s}.loading.hide{opacity:0;pointer-events:none}.loaderBox{text-align:center;color:#fff4df;font-weight:900}.orb{width:58px;height:58px;margin:0 auto 14px;border-radius:50%;border:5px solid #ffffff33;border-top-color:var(--gold);animation:spin 1s linear infinite}.conf{position:fixed;top:-18px;width:9px;height:15px;border-radius:4px;z-index:120;pointer-events:none;animation:fall var(--d) linear forwards}.heart{position:fixed;top:-30px;z-index:121;pointer-events:none;font-size:18px;animation:heartFall var(--d) linear forwards}@keyframes heroFloat{to{transform:scale(1.018) translateY(-4px)}}@keyframes winner{to{transform:scale(1.035)}}@keyframes pop{from{opacity:0;transform:scale(.72) translateY(16px)}}@keyframes girlFloat{50%{transform:translateY(-8px) rotate(-1deg)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes fall{to{transform:translate(var(--x),105vh) rotate(680deg);opacity:.15}}@keyframes heartFall{to{top:105vh;transform:translateX(var(--x)) rotate(220deg);opacity:.15}}@media(max-width:560px){.page{padding:3px 3px 18px}.shell{border-radius:20px}.hero{aspect-ratio:600/520}.board{margin:-10px 5px 10px;padding:13px 9px 17px;border-radius:20px}.grid{gap:6px}.cell{border-radius:13px;border-width:2px}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 </head>
 <body>
 <div class="loading" id="loading"><div class="loaderBox"><div class="orb"></div>Preparando a magia... ✨</div></div>
 <main class="page">
-  <section class="posterWrap" id="posterWrap" aria-label="Raspadinha Halloween Baby">
-    <img class="poster" id="poster" alt="Raspadinha Halloween Baby ilustrada com bruxinha, bruxinho, abóboras, fantasminha, morcegos e teia de aranha">
-    <div class="scratchGrid" id="grid"></div>
+  <section class="shell">
+    <div class="hero"><img id="heroArt" alt="Halloween Baby com bruxinha, bruxinho, abóboras, fantasminha, morcegos e teia de aranha"></div>
+    <section class="board">
+      <h1>✨ Raspe os espaços e encontre 3 personagens iguais em linha ✨</h1>
+      <p>Vale linha, coluna ou diagonal. O segredo só aparece quando a combinação mágica for completada.</p>
+      <div class="grid" id="grid"></div>
+      <div class="status" id="status">Nenhum espaço revelado ainda</div>
+      <div class="hint">☝️ Arraste o dedo ou o mouse sobre os quadrinhos.</div>
+    </section>
   </section>
 </main>
 <section class="reveal" id="reveal" role="dialog" aria-modal="true" aria-labelledby="resultTitle"></section>
 <script>
 (async()=>{
-  const loading=document.getElementById('loading'),wrap=document.getElementById('posterWrap'),poster=document.getElementById('poster');
+  const loading=document.getElementById('loading'),hero=document.getElementById('heroArt');
   try{
-    const parts=await Promise.all([0,1,2,3].map(i=>fetch(`assets/poster-${i}.txt?v=5`,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('asset');return r.text()})));
-    await new Promise((resolve,reject)=>{poster.onload=resolve;poster.onerror=reject;poster.src='data:image/webp;base64,'+parts.map(x=>x.trim()).join('')});
-    wrap.classList.add('ready');
-  }catch(e){
+    const chunks=await Promise.all([0,1,2,3].map(i=>fetch(`assets/poster-${i}.txt?v=8`,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('poster');return r.text()})));
+    await new Promise((resolve,reject)=>{hero.onload=resolve;hero.onerror=reject;hero.src='data:image/webp;base64,'+chunks.map(s=>s.trim()).join('')});
+  }catch(err){
     loading.querySelector('.loaderBox').innerHTML='Não foi possível carregar a arte. Atualize a página.';
     return;
   }
-  loading.classList.add('hide');
-  setTimeout(()=>loading.remove(),500);
+  loading.classList.add('hide');setTimeout(()=>loading.remove(),500);
 
+  // Apenas a diagonal principal forma 3 bruxinhas. Resultado do protótipo: MENINA.
   const pattern=['girl','boy','boy','boy','girl','boy','boy','girl','girl'];
-  const grid=document.getElementById('grid');
+  const grid=document.getElementById('grid'),status=document.getElementById('status');
   pattern.forEach((sex,i)=>{
     const cell=document.createElement('button');
-    cell.className='cell'; cell.dataset.i=i; cell.dataset.sex=sex;
+    cell.className='cell';cell.dataset.i=i;cell.dataset.sex=sex;
     cell.setAttribute('aria-label',`Espaço ${i+1} para raspar`);
-    cell.innerHTML=`<img src="assets/${sex}.jpg?v=3" alt="${sex==='girl'?'Bruxinha menina':'Bruxinho menino'}"><canvas class="scratch" aria-hidden="true"></canvas>`;
+    cell.innerHTML=`<img src="assets/${sex}.jpg?v=8" alt="${sex==='girl'?'Bruxinha':'Bruxinho'}"><canvas class="scratch" aria-hidden="true"></canvas>`;
     grid.appendChild(cell);
   });
-
   const cells=[...document.querySelectorAll('.cell')];
   const winLines=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
-  const opened=new Set(); let down=false,finished=false;
+  const opened=new Set();let down=false,finished=false;
 
   function paint(cell){
     const canvas=cell.querySelector('canvas'),r=canvas.getBoundingClientRect(),d=Math.max(1,Math.min(2,devicePixelRatio||1));
-    canvas.width=Math.round(r.width*d); canvas.height=Math.round(r.height*d); canvas.dataset.w=r.width;
-    const c=canvas.getContext('2d'); c.setTransform(d,0,0,d,0,0);
-    const g=c.createLinearGradient(0,0,r.width,r.height); g.addColorStop(0,'#d9dade');g.addColorStop(.45,'#afb2b8');g.addColorStop(1,'#d8dade');
+    canvas.width=Math.round(r.width*d);canvas.height=Math.round(r.height*d);canvas.dataset.w=r.width;
+    const c=canvas.getContext('2d');c.setTransform(d,0,0,d,0,0);
+    const g=c.createLinearGradient(0,0,r.width,r.height);g.addColorStop(0,'#d9dade');g.addColorStop(.5,'#afb2b8');g.addColorStop(1,'#d8dade');
     c.fillStyle=g;c.fillRect(0,0,r.width,r.height);
-    c.globalAlpha=.17;c.fillStyle='#fff';
-    for(let y=8;y<r.height;y+=17)for(let x=8;x<r.width;x+=19){c.beginPath();c.arc(x,y,1.6,0,Math.PI*2);c.fill()}
-    c.globalAlpha=.13;c.fillStyle='#6f5a78';c.font=Math.max(11,r.width*.14)+'px sans-serif';
-    for(let y=24;y<r.height;y+=35)for(let x=12;x<r.width;x+=38)c.fillText((x+y)%2?'✦':'🎃',x,y);
-    c.globalAlpha=1;
+    c.globalAlpha=.16;c.fillStyle='#fff';for(let y=8;y<r.height;y+=17)for(let x=8;x<r.width;x+=19){c.beginPath();c.arc(x,y,1.6,0,Math.PI*2);c.fill()}
+    c.globalAlpha=.13;c.fillStyle='#6c5876';c.font=Math.max(10,r.width*.12)+'px sans-serif';for(let y=22;y<r.height;y+=34)for(let x=11;x<r.width;x+=38)c.fillText((x+y)%2?'✦':'🎃',x,y);c.globalAlpha=1;
   }
   function erase(cell,X,Y){
     if(!cell||finished||cell.classList.contains('open'))return;
     const v=cell.querySelector('canvas'),r=v.getBoundingClientRect(),x=X-r.left,y=Y-r.top;if(x<0||y<0||x>r.width||y>r.height)return;
-    const c=v.getContext('2d'),d=v.width/+v.dataset.w;c.save();c.setTransform(d,0,0,d,0,0);c.globalCompositeOperation='destination-out';c.beginPath();c.arc(x,y,Math.max(17,r.width*.19),0,Math.PI*2);c.fill();c.restore();
+    const c=v.getContext('2d'),d=v.width/+v.dataset.w;c.save();c.setTransform(d,0,0,d,0,0);c.globalCompositeOperation='destination-out';c.beginPath();c.arc(x,y,Math.max(18,r.width*.19),0,Math.PI*2);c.fill();c.restore();
   }
-  function ratio(cell){
-    const v=cell.querySelector('canvas'),a=v.getContext('2d').getImageData(0,0,v.width,v.height).data;let clear=0,total=0;
-    for(let i=3;i<a.length;i+=32){total++;if(a[i]<65)clear++}return clear/total;
-  }
+  function ratio(cell){const v=cell.querySelector('canvas'),a=v.getContext('2d').getImageData(0,0,v.width,v.height).data;let q=0,t=0;for(let i=3;i<a.length;i+=32){t++;if(a[i]<65)q++}return q/t}
   function openCell(cell){
-    const i=+cell.dataset.i;if(opened.has(i)||ratio(cell)<.46)return;
-    opened.add(i);cell.classList.add('open');const v=cell.querySelector('canvas');v.style.opacity='0';v.style.pointerEvents='none';check();
+    const i=+cell.dataset.i;if(opened.has(i)||ratio(cell)<.47)return;
+    opened.add(i);cell.classList.add('open');const v=cell.querySelector('canvas');v.style.opacity='0';v.style.pointerEvents='none';
+    status.textContent=opened.size===1?'1 espaço revelado':`${opened.size} espaços revelados`;check();
   }
   function check(){
     for(const line of winLines){
       if(!line.every(i=>opened.has(i)))continue;
       const sex=cells[line[0]].dataset.sex;
       if(line.every(i=>cells[i].dataset.sex===sex)&&sex==='girl'){
-        line.forEach(i=>cells[i].classList.add('win'));finished=true;setTimeout(showReveal,650);return;
+        line.forEach(i=>cells[i].classList.add('win'));finished=true;status.textContent='✨ A linha mágica apareceu!';setTimeout(showReveal,650);return;
       }
     }
   }
@@ -87,14 +87,14 @@
 
   function showReveal(){
     const reveal=document.getElementById('reveal');
-    reveal.innerHTML=`<div class="revealCard"><div class="tag">✨ O FEITIÇO REVELOU! ✨</div><h1 id="resultTitle">É MENINA! 💗</h1><img class="revealGirl" src="assets/girl.jpg?v=3" alt="Pequena bruxinha"><div class="msg">Nossa pequena bruxinha está a caminho! 🧙‍♀️</div><div class="sub">Vocês encontraram três bruxinhas na linha mágica. Preparem as abóboras, os feitiços e muito amor! 🎃✨</div><button class="close" id="close">Ver o tabuleiro</button></div>`;
-    reveal.classList.add('show'); document.getElementById('close').onclick=()=>reveal.classList.remove('show');
+    reveal.innerHTML=`<div class="revealCard"><div class="tag">✨ O FEITIÇO REVELOU! ✨</div><h2 id="resultTitle">É MENINA! 💗</h2><img class="revealGirl" src="assets/girl.jpg?v=8" alt="Pequena bruxinha"><div class="msg">Nossa pequena bruxinha está a caminho! 🧙‍♀️</div><div class="sub">Três bruxinhas completaram a linha mágica. Preparem as abóboras, os feitiços e muito amor! 🎃✨</div><button class="close" id="close">Ver o tabuleiro</button></div>`;
+    reveal.classList.add('show');document.getElementById('close').onclick=()=>reveal.classList.remove('show');
     const colors=['#ef9fc6','#ffd36e','#a875bd','#f39a4b','#fff'];
-    for(let i=0;i<65;i++){const n=document.createElement('i');n.className='conf';n.style.left=Math.random()*100+'vw';n.style.background=colors[i%colors.length];n.style.setProperty('--x',(Math.random()-.5)*220+'px');n.style.setProperty('--d',(2+Math.random()*1.8)+'s');document.body.appendChild(n);setTimeout(()=>n.remove(),4200)}
-    for(let i=0;i<18;i++){const h=document.createElement('span');h.className='heart';h.textContent=i%2?'💗':'✨';h.style.left=Math.random()*100+'vw';h.style.setProperty('--x',(Math.random()-.5)*160+'px');h.style.setProperty('--d',(2.5+Math.random()*1.5)+'s');document.body.appendChild(h);setTimeout(()=>h.remove(),4500)}
+    for(let i=0;i<70;i++){const n=document.createElement('i');n.className='conf';n.style.left=Math.random()*100+'vw';n.style.background=colors[i%colors.length];n.style.setProperty('--x',(Math.random()-.5)*220+'px');n.style.setProperty('--d',(2+Math.random()*1.8)+'s');document.body.appendChild(n);setTimeout(()=>n.remove(),4200)}
+    for(let i=0;i<18;i++){const h=document.createElement('span');h.className='heart';h.textContent=i%2?'💗':'✨';h.style.left=Math.random()*100+'vw';h.style.setProperty('--x',(Math.random()-.5)*170+'px');h.style.setProperty('--d',(2.5+Math.random()*1.5)+'s');document.body.appendChild(h);setTimeout(()=>h.remove(),4500)}
   }
-  cells.forEach(paint);
-  addEventListener('resize',()=>cells.forEach(c=>{if(!c.classList.contains('open'))paint(c)}));
+  cells.forEach(paint);addEventListener('resize',()=>cells.forEach(c=>{if(!c.classList.contains('open'))paint(c)}));
 })();
 </script>
-</body></html>
+</body>
+</html>
